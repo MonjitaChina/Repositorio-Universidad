@@ -1,0 +1,78 @@
+.html {
+    background-color: #B6C1E5;
+    color: #B6C1E5;
+}
+.BarraSuperior {
+    background-color: #374F95;
+    padding: 10;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TituloPagina {
+    margin: 0px;   
+    color: white;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+.DivsDeDivs {
+    display: flex;
+    gap: 10px;
+}
+.CrearEquipo {
+    border-color: #374F95;
+    background-color: #7F90C1;
+    border-style: solid;
+    justify-items: left;
+    padding: 20px;
+    width: 50%;
+}
+.CrearEquipo h2 {
+    color: white;
+    font-family: sans-serif;
+}
+.BotonGay {
+    margin: 4px;
+    cursor: pointer;
+    background-color: #374F95;
+    color: white;
+}
+.BotonGay:hover {
+    background-color: #283B72;
+}
+.BotonGay:active {
+    border-color: white;
+}
+.BarraDeTexto {
+    background-color: #374F95;
+    color: white;
+}
+.BarraDeTexto::placeholder {
+    color: white;
+}
+.Participante {
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.boton-borrar {
+    cursor: pointer;
+    background-color: #B22512;
+    color: white;
+}
+.tablaDelTorneo {
+    border-color: #374F95;
+    background-color: #7F90C1;
+    border-style: solid;
+    justify-items: left;
+    padding: 20px;
+    width: 50%;
+    text-transform: uppercase;
+    color: white;
+}
+.CrearEquipo p {
+    color: white;
+}

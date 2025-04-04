@@ -1,0 +1,69 @@
+<!Doctype html>
+<!-- <> -->
+<html>
+    <head>
+        <link rel="icon" href="public/imagenes/favicon.ico">
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Champions league</title>
+        
+        <link rel="stylesheet" type="text/css" href="public/Css/style.css">
+    </head>
+    <body>
+        <!-- Barra superior de la pagina -->
+        <div class="BarraSuperior">
+        <h1 class="TituloPagina">Champions league</h1>
+        </div>
+        <!-- Contenedores de datos Bv -->
+        <div class="DivsDeDivs">
+        <div class="CrearEquipo">
+            <h2>Crear un torneo</h2>
+
+            <button class="BotonGay"
+            type="button"
+            id="boton1"
+            onclick="setStage(8)"
+            >
+            Cuartos de final
+            </button>
+
+            <button class="BotonGay"
+            type="button"
+            id="boton2"
+            onclick="setStage(16)"
+            >
+            Octavos de final
+            </button>
+
+            <span>
+            <input 
+            class="BarraDeTexto"
+            type="text" 
+            name="nombre" 
+            placeholder="Nombre del equipo"
+            id="Equipo"
+        >
+
+        <button class="BotonGay" 
+            type="button"
+            id="Boton"
+        >
+            Agregar
+        </button>
+        </span>
+        <p>Nota: Para visualizar la tabla del torneo ingresar los equipos y refrescar la pagina (perdon :c)</p>
+        </div>
+        <div class="CrearEquipo">
+            <h2>Equipos ingresados</h2>
+            <div class="Participante" id="Participando">
+        </div>
+        </div>
+        </div>
+        <div class="tablaDelTorneo">
+            <h2>Tabla del Torneo</h2>
+            <div id="tabla"></div>
+            <button class="BotonGay" id="iniciarTorneo">Iniciar Torneo</button>
+        </div>
+    </body>
+    <script type="text/javascript" src="public/Js/Java.js"></script>
+</html>
