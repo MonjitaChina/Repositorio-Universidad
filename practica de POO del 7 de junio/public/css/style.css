@@ -1,0 +1,18 @@
+div.formu {  
+    background-color: #ccffcc;
+    border: 3px solid #004d1a;
+    color: #003300;
+    font-family: monospace;
+    text-align: justify;
+}
+
+div.body {
+    background-color: #66cc66;
+    margin: auto;
+  width: 50%;
+  border: 3px solid #004d1a;
+  padding: 10px;
+  color: #003300;
+  font-family: fantasy;
+  text-align: center;
+}
